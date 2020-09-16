@@ -13,35 +13,46 @@ git push
 
 
 #command line instruction
-go to home directory
+Go to home directory
 ```cd```
 
-change directory
+Change directory
 ```cd <folder_name> ```
 
-up one directory
+Up one directory
 ```cd ..```
 
-display files/directories within directory
+Display files/directories within directory
 ```ls```
 
 Make new directory
-```mkdir```
+```mkdir <directory>```
 
-remove folder
+Remove folder
 ```rm <foldername>```
 
-remove file
+Remove file
 ```rm <filename.filetype>```
 
-make new python file
+Make new python file
 ```vim file_name.py```
 
-enter the file 
+To enter the file 
 ```vim <file_name>```
 
-command line example
-```Example Command ```
+To move a file into another place use 
+```mv <filename> <directory/folder>```
+
+The above command can also be used to rename a file. If the second <directory/folder> does not exist, it will renamed to that new one. For example, 
+```mv <old_name> <new_name>```
+
+Furthemore if more than one file need to be transferred, you can add more files to the command and they will all be put into the final file. 
+```mv <first_file> <second_file> <directory> #both files will be put into directory```
+
+To select all files and move them to the directory above use 
+```mv * ../```
+
+
 
 
 
@@ -63,10 +74,7 @@ to forcefully exit press
 
 press `python` to access interpreter
 
-press `python`
-
-
-#Gym
+press `python File_name.py` to access pythom file 
 
 
 
