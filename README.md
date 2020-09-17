@@ -1,5 +1,11 @@
-# EdgarG
-To save to github
+# Edgar Gonzalez Martinez
+This README.md file is intended to be a resource for myself and others. If anything can be improved or added please let me know.
+
+# GitHub Commands
+The following set of commands are intended for uploading all your files in a given repostory to GitHub. These command guarantee all your files will be saved if:
+-A repository allready exists by the same name as the directory
+-You enter all necessary username and password info
+
 ```
 git pull
 git add --all
@@ -12,15 +18,19 @@ git push
 
 
 
-#command line instruction
-Go to home directory
+# Command Line Instruction
+Below are some basic commands intended to get you started with the command line. The command line is a simple way to access, edit and run files simutaneously. 
+
+Go to the home directory.
 ```cd```
 
-Change directory
-```cd <folder_name> ```
+Change directory.
+```cd <directory>```
 
-Up one directory
+Up one directory. 
 ```cd ..```
+
+If more periods are added then you will go up that many more directories. For example ```cd ....``` will take you up 3 directories. 
 
 Display files/directories within directory
 ```ls```
@@ -34,11 +44,8 @@ Remove folder
 Remove file
 ```rm <filename.filetype>```
 
-Make new python file
+Make new python file as well as to edit it if the file already exists.
 ```vim file_name.py```
-
-To enter the file 
-```vim <file_name>```
 
 To move a file into another place use 
 ```mv <filename> <directory/folder>```
@@ -49,7 +56,7 @@ The above command can also be used to rename a file. If the second <directory/fo
 Furthemore if more than one file need to be transferred, you can add more files to the command and they will all be put into the final file. 
 ```mv <first_file> <second_file> <directory> #both files will be put into directory```
 
-To select all files and move them to the directory above use 
+To select all files and move them to the directory above use (same rule applies as with cd ....)
 ```mv * ../```
 
 
@@ -74,7 +81,5 @@ to forcefully exit press
 
 press `python` to access interpreter
 
-press `python File_name.py` to access pythom file 
-
-
+press `python File_name.py` to execute pythom file 
 
