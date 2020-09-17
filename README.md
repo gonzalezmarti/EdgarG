@@ -42,7 +42,7 @@ Make new directory
 ```mkdir <directory>```
 
 Remove existing directory 
-```rmdir```
+```rmdir <directroy>```
 
 Remove folder
 ```rm <foldername>```
@@ -60,18 +60,18 @@ The above command can also be used to rename a file. If the second <directory/fo
 Furthemore if more than one file need to be transferred, you can add more files to the command and they will all be put into the final file. 
 ```mv <first_file> <second_file> <directory> #both files will be put into directory```
 
-To select all files and move them to the directory above use (same rule applies as with cd ....)
+To select all files and move them to the directory above use
 ```mv * ../```
-
+(same rule applies as with cd ....)
 
 # Vim Instructions
 Vim is what we use to access code and other types of files. It's a bit tricky but not too bad once you get used to it.
 
-to edit the file press `i`
+to edit the file ```i```
 
-to save press `:w`
+to save ```:w```
 
-to save and quit the file press `esc` press `:wq
+to save and quit the file ```esc``` press ```:wq```
 
 to forcefully exit press
 ```:q!```
